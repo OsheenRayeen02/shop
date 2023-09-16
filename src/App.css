@@ -1,0 +1,531 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --primarycolor: #f07e15;
+  --topnavcol: #626262;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.dpFlex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* **************************************** */
+/* **************************************** */
+.TOP {
+  background-color: rgba(0, 0, 0, 0.889);
+  mix-blend-mode: overlay;
+  color: white;
+  overflow-x: hidden;
+}
+.TopNavBar {
+  background-color: #1a1a1a;
+  height: 42px;
+  justify-content: space-between;
+}
+.TNB {
+  padding: 0px 90px;
+  list-style: none;
+  font-size: 16px;
+  color: white;
+  gap: 10px;
+  justify-content: space-between;
+}
+.TNB-icons {
+  gap: 20px;
+}
+.TNB-left a:first-child {
+  border-right: 1px solid var(--topnavcol);
+  padding: 0 10px;
+}
+.TNB a li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.TNB a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--topnavcol);
+  font-family: Poppins;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bannerText {
+  color: white;
+}
+/* ******************************* */
+.UnderLine {
+  width: 88%;
+  margin: auto;
+  position: relative;
+  top: -5px;
+}
+.UnderLine img {
+  width: 100%;
+}
+.LowerNavBar {
+  display: flex;
+  flex-direction: column;
+}
+.LogoBox {
+  display: flex;
+  align-items: center;
+  padding: 0px 90px;
+  justify-content: space-between;
+}
+.ShopKartHeading a {
+  font-size: 40px;
+  font-weight: 275;
+}
+.BagBox {
+  gap: 20px;
+}
+.LogoBox a {
+  text-decoration: none;
+  color: white;
+  font-family: poppins;
+}
+.TNItems {
+  padding: 0 137px;
+  gap: 127px;
+  position: relative;
+}
+.TNItems a {
+  text-decoration: none;
+  color: white;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.SubMenu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+}
+.SubMenu a {
+  padding: 15px;
+}
+/* ******************************* */
+.BannerBox {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 90px;
+}
+.BannerLeft {
+  position: relative;
+}
+.BannerFont {
+  position: relative;
+}
+.BannerFont h2 {
+  position: absolute;
+  font-family: Syne;
+  font-size: 8.5rem;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  z-index: 5;
+}
+#Fresh {
+  top: 30px;
+  left: 90px;
+}
+#H2022 {
+  top: 146px;
+  left: 399px;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
+}
+#Look {
+  top: 255px;
+  left: 167px;
+}
+.underlineImg img {
+  position: absolute;
+  width: 64px;
+  height: 89.08px;
+  top: 490.97px;
+  left: 944px;
+  z-index: 6;
+}
+.StarLine {
+  position: absolute;
+  width: 976px;
+  height: 1px;
+  background-color: white;
+  z-index: 7;
+  top: 535.97px;
+}
+#seeMore {
+  position: absolute;
+  width: 103px;
+  height: 24px;
+  top: 566px;
+  border: none;
+  left: 70px;
+  background-color: transparent;
+  gap: 3px;
+}
+#seeMore a {
+  text-decoration: none;
+  color: white;
+}
+/* ************* */
+.BannerImages {
+  position: relative;
+}
+.FrontImg {
+  position: relative;
+  z-index: 2;
+  top: 0px;
+}
+.BackImg {
+  position: absolute;
+  top: -5px;
+  left: 110px;
+  z-index: 1;
+}
+.OrangeBox {
+  position: absolute;
+  width: 993px;
+  height: 354.3px;
+  top: 208px;
+  /* left: 447px; */
+  right: -90px;
+  z-index: 0;
+  background-color: var(--primarycolor);
+}
+.OrangeBoxText {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  display: flex;
+}
+.OrangeBoxText h6 {
+  position: absolute;
+  top: 242.9px;
+  z-index: 6;
+  left: 870px;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+#OBT-Price {
+  top: 262px;
+}
+
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+/* ******************************** */
+.NewProducts {
+  justify-content: space-between;
+}
+.NewProducts h2 {
+  font-family: Syne;
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 108px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: inline;
+  padding: 0px 90px;
+}
+.Star2Img {
+  position: relative;
+  top: -30px;
+  left: 60px;
+}
+.Star2Line {
+  position: relative;
+  width: 500px;
+  height: 2px;
+  top: -18px;
+  left: 67px;
+  background-color: black;
+}
+/* ************************** */
+.NewproductsLowBox {
+  display: flex;
+  padding: 50px 0;
+}
+.NPLBleft {
+  width: 6vw;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0px 90px;
+}
+.Cat-List {
+  width: 158px;
+}
+.NPLBleft a {
+  text-decoration: none;
+  color: black;
+  font-family: Syne;
+  font-size: 18px;
+  font-weight: 100;
+  transition: all ease 0.5s;
+}
+.NPLBleft a:hover {
+  font-size: 26px;
+  font-weight: 600;
+}
+.rightList {
+  width: calc(100vw - 20vw);
+  overflow: hidden;
+}
+.productsListItems {
+  display: flex;
+  overflow-y: hidden;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  overflow-x: scroll;
+  height: 100%;
+}
+.productsListItems::-webkit-scrollbar {
+  display: none;
+}
+.ProductsBox {
+  width: 310px;
+  height: 450px;
+}
+.ProductsImgs {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ProductsImgs img {
+  width: 100%;
+  height: 100%;
+}
+.NameAndPrice {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: auto;
+  width: 310px;
+  height: auto;
+}
+.NameAndPrice h4,
+h5 {
+  height: 30px;
+  overflow: hidden;
+  font-family: Syne;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0em;
+  width: 303px;
+  margin: auto;
+  text-align: left;
+}
+.NameAndPrice p {
+  font-size: 16px;
+  width: 303px;
+  margin: auto;
+  overflow: hidden;
+  height: 49px;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* ************ Footer *****************/
+.Footer {
+  background-color: red;
+  display: flex;
+  min-height:70vh;
+  justify-content: space-between;
+}
+.footerText {
+  position: relative;
+  padding: 0px 103px;
+}
+.footerText h2 {
+  position: absolute;
+  font-family: Syne;
+  font-size: 26px;
+  font-weight: 600;
+  color: var(--topnavcol);
+  top: 80px;
+}
+.footerText p {
+  position: absolute;
+  top: 120px;
+  min-width: 337px;
+  font-family: Work Sans;
+  color: var(--topnavcol);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.getInTouch h3,
+.getInTouch h4 {
+  /* background-color: pink; */
+  position: absolute;
+  font-family: Syne;
+  font-size: 135px;
+  font-weight: 800;
+  line-height: 103px;
+  letter-spacing: 0em;
+  text-align: left;
+  left: 90px;
+  top: 130px;
+  color: white;
+}
+.footerText h4 {
+  padding: 50px 0;
+}
+
+.FeedbackForm{
+    padding: 0px;
+}
+.FeedForm {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  right: 350px;
+  align-items: center;
+  top: 90px;
+}
+.FeedForm input {
+  background-color: transparent;
+  width: 558px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+#sendBtn {
+  position: absolute;
+  width: 181px;
+  height: 181px;
+  border: 2px solid var(--primarycolor);
+  background-color: transparent;
+  color: #f07e15;
+  border-radius: 50%;
+  top: 170px;
+  right: -150px;
+  cursor: pointer;
+  font-family: Work Sans;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+/* ************************** */
+.Copyright {
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+}
+@media (max-width: 768px) {
+  .BannerBox {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  .Footer {
+    padding: 20px; }
+
+  .footerText,
+  .getInTouch {
+    text-align: center;
+  }
+
+  .FeedbackForm {
+    text-align: center; 
+  }
+
+  .FeedForm input,
+  .FeedForm button {
+    width: 100%;
+    margin-bottom: 10px; 
+  }
+
+
+  .LowerNavBar {
+    flex-direction: column;
+  }
+
+  .TopNavItems {
+    width: 100%; 
+  }
+
+  
+
+  .NewProductsContainer {
+    padding: 20px; 
+  }
+
+  .NewProducts {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .NPLBleft {
+    text-align: center; 
+  }
+
+  .NPLright {
+    margin-top: 20px; 
+  }
+
+  .ProductsBox {
+    margin-bottom: 20px; 
+  }
+
+  .TopNavBar {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .TNB-left,
+  .TNB-right {
+    text-align: center; 
+  }
+
+  .TNB-icons {
+    display: flex;
+    justify-content: center; 
+  }
+
+  .TNB-icons a {
+    margin: 0 10px; 
+  }
+  .HomeContainer {
+    padding: 10px; }
+
+  }
