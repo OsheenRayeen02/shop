@@ -7,7 +7,7 @@ function LowerNavBar() {
         setShowProductsSubMenu(!showProductsSubMenu);
     };
 
-    const [wishCount, setWishCount] = useState('0');
+    const [wishCount] = useState('0');
 
     const navbar = [
         { name: 'HOME', id: 'home' },
